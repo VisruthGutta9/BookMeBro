@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width:100%;
+    overflow: hidden;
+}
+#nav-panel{
+    width:100%;
+    height: 10vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index:10;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position:fixed;
+    background-color: black;
+}
+.logo.design{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 800;
+    font-style: normal;
+    background: linear-gradient(to right, #d32743 10%, #7957a7 20%,#cac9c9 30%,#cac9c9 40%, #40c7f0 50%, #50835f 60%,#e2ee3c 80%,#e78e07 90%);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+}
+.nav-links {
+    font-weight: 700;
+    font-size: 1rem;
+    gap:4rem;
+   
+}
+.nav-links a {
+    color:white;
+    text-decoration: none;
+   
+    margin-left: 3rem;
+}
+.link.two .dropdown-menu{
+    position: relative;
+}
+
+#main-page{
+    height:100vh;
+    width:100%;
+    padding:6em 2em;
+    background-color:rgb(15, 14, 14);
+}
+#main-sec{
+    width:90%;
+    margin: 1rem;
+    display: flex;
+    gap:2rem;
+
+}
+.movie{
+    height:350px;
+    width:225px;
+    padding:2em;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color:white;
+}
+.movie-img{
+    background-image: url('jersesy\'.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 170px;
+    border-radius: 20px;
+    transform: 6s ease;
+}
+.movie-img:hover{
+    opacity: 4;
+    backdrop-filter: blur(10px);
+}
+.star-rating{
+    color:yellow;
+}
+.movie-img.one{
+    background-image: url('kalki.webp');
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 170px;
+    border-radius: 20px;
+    transform: 6s ease;
+}
+.movie-img.two{
+    background-image: url('pushpa.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 170px;
+    border-radius: 20px;
+    transform: 6s ease;
+}
